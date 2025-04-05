@@ -27,7 +27,8 @@ public class App extends Application {
     }
 
     private static Parent loadFXML(String fxml) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(fxml + ".fxml"));
+        // Fix the path to reference resources correctly
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("/paagbat/fxml/" + fxml + ".fxml"));
         return fxmlLoader.load();
     }
 
