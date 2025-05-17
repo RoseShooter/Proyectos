@@ -1,0 +1,57 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+@argfile
+--class-path
+'C:/Users/mirei/.m2/repository/org/openjfx/javafx-controls/21/javafx-controls-21.jar;C:/Users/mirei/.m2/repository/org/openjfx/javafx-graphics/21/javafx-graphics-21.jar;C:/Users/mirei/.m2/repository/org/openjfx/javafx-base/21/javafx-base-21.jar;C:/Users/mirei/.m2/repository/org/openjfx/javafx-fxml/21/javafx-fxml-21.jar;C:/Users/mirei/.m2/repository/org/openjfx/javafx-media/21/javafx-media-21.jar;C:/Users/mirei/.m2/repository/org/openjfx/javafx-web/21/javafx-web-21.jar;C:/Users/mirei/.m2/repository/org/xerial/sqlite-jdbc/3.43.2.1/sqlite-jdbc-3.43.2.1.jar;C:/Users/mirei/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar;C:/Users/mirei/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar;C:/Users/mirei/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar'
+--module-path
+'C:/Users/mirei/.m2/repository/org/openjfx/javafx-base/21/javafx-base-21-win.jar;C:/Users/mirei/.m2/repository/org/openjfx/javafx-graphics/21/javafx-graphics-21-win.jar;C:/Users/mirei/.m2/repository/org/kordamp/ikonli/ikonli-core/12.3.1/ikonli-core-12.3.1.jar;C:/Users/mirei/.m2/repository/org/openjfx/javafx-media/21/javafx-media-21-win.jar;C:/Users/mirei/.m2/repository/org/openjfx/javafx-controls/21/javafx-controls-21-win.jar;C:/Users/mirei/.m2/repository/org/openjfx/javafx-fxml/21/javafx-fxml-21-win.jar;C:/Users/mirei/Documents/GitHub/ebal3-bakarkakolana-MireiaCalvo/jokoak/target/classes;C:/Users/mirei/.m2/repository/org/openjfx/javafx-web/21/javafx-web-21-win.jar;C:/Users/mirei/.m2/repository/org/kordamp/ikonli/ikonli-fontawesome-pack/12.3.1/ikonli-fontawesome-pack-12.3.1.jar;C:/Users/mirei/.m2/repository/org/kordamp/ikonli/ikonli-javafx/12.3.1/ikonli-javafx-12.3.1.jar'
+--patch-module
+paagbat='C:/Users/mirei/Documents/GitHub/ebal3-bakarkakolana-MireiaCalvo/jokoak/src/main/java'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+--module-source-path
+'C:/Users/mirei/Documents/GitHub/ebal3-bakarkakolana-MireiaCalvo/jokoak/target/reports/apidocs/src'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/mirei/Documents/GitHub/ebal3-bakarkakolana-MireiaCalvo/jokoak/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'jokoak 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/mirei/Documents/GitHub/ebal3-bakarkakolana-MireiaCalvo/jokoak/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'jokoak 1.0-SNAPSHOT API'
+paagbat
+paagbat.controller
+'C:/Users/mirei/Documents/GitHub/ebal3-bakarkakolana-MireiaCalvo/jokoak/src/main/java/module-info.java'
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\allclasses-index.html = 1745418944040
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\allpackages-index.html = 1745418944044
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\copy.svg = 1745418944083
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\element-list = 1745418943939
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\help-doc.html = 1745418944077
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\index-all.html = 1745418944063
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\index.html = 1745418944068
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\link.svg = 1745418944084
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\member-search-index.js = 1745418944049
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\module-search-index.js = 1745418944045
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\overview-tree.html = 1745418944025
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\package-search-index.js = 1745418944047
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\script.js = 1745418944082
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\search-page.js = 1745418944088
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\search.html = 1745418944066
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\search.js = 1745418944087
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\stylesheet.css = 1745418944079
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\tag-search-index.js = 1745418944051
+C:\Users\mirei\Documents\GitHub\ebal3-bakarkakolana-MireiaCalvo\jokoak\target\reports\apidocs\type-search-index.js = 1745418944048

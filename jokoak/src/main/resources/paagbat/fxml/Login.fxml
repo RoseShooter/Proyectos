@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" styleClass="parent" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paagbat.controller.LoginController">
+   <children>
+      <Pane layoutY="133.0" prefHeight="469.0" prefWidth="980.0" styleClass="pane" stylesheets="@../css/main.css">
+         <children>
+            <Pane layoutX="500.0" prefHeight="469.0" prefWidth="480.0" style="-fx-background-color: rgb(229,118,47);" />
+            <ImageView fx:id="logo" fitHeight="360.0" fitWidth="370.0" layoutX="63.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/GameHive.png" />
+               </image>
+            </ImageView>
+            <Pane fx:id="login" layoutX="500.0" opacity="1" prefHeight="469.0" prefWidth="480.0">
+               <children>
+                  <VBox prefHeight="469.0" prefWidth="480.0" stylesheets="@../css/main.css">
+                     <children>
+                        <HBox alignment="CENTER_RIGHT" prefHeight="36.0" prefWidth="474.0" spacing="10.0">
+                           <children>
+                              <FontIcon fx:id="txikitu" iconColor="#f2f2f2" iconLiteral="fa-minus" iconSize="25" onMouseClicked="#txikitu">
+                                 <HBox.margin>
+                                    <Insets right="9.0" />
+                                 </HBox.margin>
+                              </FontIcon>
+                              <FontIcon fx:id="itxi" iconColor="#f2f2f2" iconLiteral="fa-close" iconSize="25" onMouseClicked="#itxi" />
+                           </children>
+                           <VBox.margin>
+                              <Insets right="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <Pane prefHeight="54.0" prefWidth="480.0" />
+                        <Label text="Login" textFill="#f2f2f2">
+                           <font>
+                              <Font name="System Bold" size="30.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="15.0" right="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <FontIcon iconColor="WHITE" iconLiteral="fa-user" iconSize="16" wrappingWidth="10.571428298950195">
+                                 <HBox.margin>
+                                    <Insets left="5.0" />
+                                 </HBox.margin>
+                              </FontIcon>
+                              <TextField fx:id="erabiltzaileData" prefHeight="26.0" prefWidth="425.0" promptText="Erabiltzailea" styleClass="usuario_label" HBox.hgrow="ALWAYS" />
+                           </children>
+                           <VBox.margin>
+                              <Insets left="15.0" right="15.0" top="15.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="25.0" layoutY="253.0" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <FontIcon iconColor="WHITE" iconLiteral="fa-lock" iconSize="16" wrappingWidth="10.571428298950195">
+                                 <HBox.margin>
+                                    <Insets left="5.0" />
+                                 </HBox.margin>
+                              </FontIcon>
+                              <PasswordField fx:id="pasahitzaData" prefHeight="25.0" prefWidth="412.0" promptText="Pasahitza" styleClass="usuario_label" HBox.hgrow="ALWAYS" />
+                           </children>
+                           <VBox.margin>
+                              <Insets left="15.0" right="15.0" top="15.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <CheckBox fx:id="gogoratu" mnemonicParsing="false" text="Gogoratu" textFill="#f2f2f2">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                        </CheckBox>
+                        <Text fx:id="login_error" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <VBox alignment="CENTER" prefHeight="117.0" prefWidth="480.0" spacing="20.0">
+                           <children>
+                              <Button fx:id="loginButton" mnemonicParsing="false" onMouseClicked="#login" prefHeight="53.0" prefWidth="154.0" text="Hasi saioa" VBox.vgrow="ALWAYS">
+                                 <VBox.margin>
+                                    <Insets left="15.0" right="15.0" top="20.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="17.0" />
+                                 </font>
+                              </Button>
+                              <Hyperlink onMouseClicked="#erregistrora" style="-fx-text-fill: white;" text="Erabiltzailea sortu">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Hyperlink>
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+            <Pane fx:id="erregistro" layoutX="500.0" opacity="0" prefHeight="470.0" prefWidth="480.0" style="-fx-background-color: rgb(229,118,47);" visible="false">
+               <children>
+                  <VBox prefHeight="469.0" prefWidth="480.0" stylesheets="@../css/main.css">
+                     <children>
+                        <HBox alignment="CENTER_RIGHT" prefHeight="36.0" prefWidth="474.0">
+                           <children>
+                              <FontIcon iconColor="#f2f2f2" iconLiteral="fa-minus" iconSize="25" onMouseClicked="#txikitu">
+                                 <HBox.margin>
+                                    <Insets right="9.0" />
+                                 </HBox.margin>
+                              </FontIcon>
+                              <FontIcon iconColor="#f2f2f2" iconLiteral="fa-close" iconSize="25" onMouseClicked="#itxi" />
+                           </children>
+                           <VBox.margin>
+                              <Insets right="6.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <Pane prefHeight="21.0" prefWidth="480.0" />
+                        <Label text="Erregistroa" textFill="#f2f2f2">
+                           <font>
+                              <Font name="System Bold" size="30.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="15.0" right="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <TextField fx:id="erabi_berri" prefHeight="26.0" prefWidth="425.0" promptText="Erabiltzailea" styleClass="usuario_label" HBox.hgrow="ALWAYS" />
+                           </children>
+                           <VBox.margin>
+                              <Insets left="15.0" right="15.0" top="15.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <TextField fx:id="email" prefHeight="26.0" prefWidth="425.0" promptText="Email" styleClass="usuario_label" HBox.hgrow="ALWAYS" />
+                           </children>
+                           <VBox.margin>
+                              <Insets left="15.0" right="15.0" top="15.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="25.0" layoutY="253.0" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <PasswordField fx:id="pasahitza1" prefHeight="25.0" prefWidth="412.0" promptText="Pasahitza" styleClass="usuario_label" HBox.hgrow="ALWAYS" />
+                           </children>
+                           <VBox.margin>
+                              <Insets left="15.0" right="15.0" top="15.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <PasswordField fx:id="pasahitza2" prefHeight="25.0" prefWidth="412.0" promptText="Pasahitza errepikatu" styleClass="usuario_label" HBox.hgrow="ALWAYS" />
+                           </children>
+                           <VBox.margin>
+                              <Insets left="15.0" right="15.0" top="15.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <Text fx:id="erregistro_error" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0">
+                           <VBox.margin>
+                              <Insets left="15.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <VBox alignment="CENTER" prefHeight="120.0" prefWidth="480.0" spacing="20.0">
+                           <children>
+                              <Button fx:id="erregistroButton" mnemonicParsing="false" onMouseClicked="#erregistroa" prefHeight="53.0" prefWidth="154.0" text="Erregistratu" VBox.vgrow="ALWAYS">
+                                 <VBox.margin>
+                                    <Insets left="15.0" right="15.0" top="20.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="17.0" />
+                                 </font>
+                              </Button>
+                              <Hyperlink onMouseClicked="#logina" style="-fx-text-fill: white;" text="Jada erabiltzailea daukat">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Hyperlink>
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,105 @@
+.parent{
+    -fx-background-color: trasparent;
+}
+
+.pane{
+    -fx-background-color: F2F2F2;
+}
+
+#login {
+    -fx-background-color: rgb(229,118,47);
+}
+
+#loginButton {
+    -fx-background-color: white;
+}
+
+#loginButton:hover {
+    -fx-background-color: rgba(204, 193, 193, 0.925);
+    -fx-cursor: hand;
+}
+
+#erregistro {
+    -fx-background-color: rgb(229,118,47);
+}
+
+#erregistroButton{
+    -fx-background-color: white;
+}
+
+#erregistroButton:hover {
+    -fx-background-color: rgba(204, 193, 193, 0.925);
+    -fx-cursor: hand;
+}
+
+#title {
+    -fx-background-color: rgb(229,118,47);
+}
+
+#menu {
+    -fx-background-color: rgb(239,147,69);
+}
+
+#barrukoa {
+    -fx-background-color: #FEC98E;
+}
+
+#hasiera:hover{
+    -fx-background-color: rgb(229,118,47);
+    -fx-cursor: hand;
+}
+
+#nire_listak:hover{
+    -fx-background-color: rgb(229,118,47);
+    -fx-cursor: hand;
+}
+
+#jokoak:hover{
+    -fx-background-color: rgb(229,118,47);
+    -fx-cursor: hand;
+}
+
+#profila:hover{
+    -fx-background-color: rgb(229,118,47);
+    -fx-cursor: hand;
+}
+
+#erabilBox:hover{
+    -fx-background-color: rgb(229,118,47);
+    -fx-cursor: hand;
+}
+
+.grafika {
+    -fx-background-color: #ef9345;
+}
+
+.grafikabtn {
+    -fx-background-color: rgb(229,118,47);
+}
+
+#desiroa:hover{
+    -fx-background-color: rgb(229,118,47);
+    -fx-cursor: hand;
+}
+
+#nireak:hover{
+    -fx-background-color: rgb(229,118,47);
+    -fx-cursor: hand;
+}
+
+#jokatuak:hover{
+    -fx-background-color: rgb(229,118,47);
+    -fx-cursor: hand;
+}
+
+.table-view.zentratua .table-cell {
+    -fx-alignment: center;
+}
+
+#txikitu:hover{
+    -fx-cursor: hand;
+}
+
+#itxi:hover{
+    -fx-cursor: hand;
+}

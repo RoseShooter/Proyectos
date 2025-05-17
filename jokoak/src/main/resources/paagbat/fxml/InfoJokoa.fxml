@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="860.0" style="-fx-background-color: #ffae66;" styleClass="parent" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paagbat.controller.InfoJokoaController">
+    <children>
+      <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" prefHeight="700.0" prefWidth="860.0" stylesheets="@../css/main.css">
+         <content>
+            <VBox prefWidth="850.0" style="-fx-background-color: #ffae66;">
+               <children>
+                    <HBox prefHeight="523.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
+                        <children>
+                            <HBox alignment="CENTER" prefHeight="522.0" prefWidth="487.0">
+                           <children>
+                              <ImageView fx:id="jokoIrudi" fitHeight="440.0" fitWidth="410.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </HBox>
+                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="400.0">
+                                <children>
+                                    <VBox alignment="TOP_CENTER" prefHeight="522.0" prefWidth="354.0" HBox.hgrow="ALWAYS">
+                                        <VBox prefHeight="41.0" prefWidth="263.0" />
+                                        <Text fx:id="jokotitulu" fill="WHITE" style="-fx-font-size: 30px; -fx-font-weight: bold;" textAlignment="CENTER" wrappingWidth="288.72265625">
+                                    <font>
+                                       <Font size="28.0" />
+                                    </font>
+                                 </Text>
+                                        <VBox prefHeight="10.0" prefWidth="263.0" />
+                                 <HBox alignment="CENTER_LEFT" prefWidth="279.0" spacing="10.0">
+                                    <children>
+                                       <Label text="Garatzailea:" textFill="WHITE">
+                                          <font>
+                                             <Font name="System Bold" size="18.0" />
+                                          </font>
+                                       </Label>
+                                       <Label fx:id="garatzaileak" maxWidth="253.0" prefWidth="249.0" wrapText="true">
+                                          <font>
+                                             <Font size="15.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                    <VBox.margin>
+                                       <Insets left="10.0" />
+                                    </VBox.margin>
+                                 </HBox>
+                                 <HBox alignment="CENTER_LEFT" prefHeight="46.0" prefWidth="305.0" spacing="10.0">
+                                    <children>
+                                       <Label text="Plataforma:" textFill="WHITE">
+                                          <font>
+                                             <Font name="System Bold" size="18.0" />
+                                          </font>
+                                       </Label>
+                                       <Label fx:id="plataforma" prefHeight="17.0" prefWidth="246.0" wrapText="true" />
+                                    </children>
+                                    <VBox.margin>
+                                       <Insets left="10.0" />
+                                    </VBox.margin>
+                                 </HBox>
+                                 <HBox alignment="CENTER_LEFT" prefWidth="291.0" spacing="10.0">
+                                    <children>
+                                       <Label text="Generoa:" textFill="WHITE">
+                                          <font>
+                                             <Font name="System Bold" size="18.0" />
+                                          </font>
+                                       </Label>
+                                       <Label fx:id="generoak" maxWidth="278.0" prefWidth="278.0" wrapText="true">
+                                          <font>
+                                             <Font size="15.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                    <VBox.margin>
+                                       <Insets left="10.0" />
+                                    </VBox.margin>
+                                 </HBox>
+                                 <HBox alignment="CENTER_LEFT" prefHeight="46.0" prefWidth="279.0" spacing="10.0">
+                                    <children>
+                                       <Label text="Pegi:" textFill="WHITE">
+                                          <font>
+                                             <Font name="System Bold" size="18.0" />
+                                          </font>
+                                       </Label>
+                                       <Label fx:id="pegi" prefHeight="17.0" prefWidth="166.0" wrapText="true">
+                                          <font>
+                                             <Font size="15.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                    <VBox.margin>
+                                       <Insets left="10.0" />
+                                    </VBox.margin>
+                                 </HBox>
+                                 <HBox alignment="CENTER_LEFT" prefHeight="46.0" prefWidth="279.0" spacing="10.0">
+                                    <children>
+                                       <Label text="Prezioa:" textFill="WHITE">
+                                          <font>
+                                             <Font name="System Bold" size="18.0" />
+                                          </font>
+                                       </Label>
+                                       <Label fx:id="prezio" maxWidth="166.0" prefHeight="17.0" prefWidth="166.0" wrapText="true">
+                                          <font>
+                                             <Font size="15.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                    <VBox.margin>
+                                       <Insets left="10.0" />
+                                    </VBox.margin>
+                                 </HBox>
+                                 <HBox alignment="CENTER_LEFT" prefHeight="46.0" prefWidth="279.0" spacing="10.0">
+                                    <children>
+                                       <Label text="Irteera data:" textFill="WHITE">
+                                          <font>
+                                             <Font name="System Bold" size="18.0" />
+                                          </font>
+                                       </Label>
+                                       <Label fx:id="irteeraData" prefHeight="17.0" prefWidth="152.0" wrapText="true">
+                                          <font>
+                                             <Font size="15.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                    <VBox.margin>
+                                       <Insets left="10.0" />
+                                    </VBox.margin>
+                                 </HBox>
+                                 <HBox prefWidth="279.0" spacing="10.0">
+                                    <children>
+                                       <Label text="Deskribapena:" textFill="WHITE">
+                                          <font>
+                                             <Font name="System Bold" size="18.0" />
+                                          </font>
+                                       </Label>
+                                       <ScrollPane fitToWidth="true" hbarPolicy="NEVER" prefHeight="174.0" prefWidth="232.0">
+                                          <content>
+                                             <Label fx:id="deskribapen" wrapText="true">
+                                                <font>
+                                                   <Font size="15.0" />
+                                                </font>
+                                             </Label>
+                                          </content>
+                                       </ScrollPane>
+                                    </children>
+                                    <VBox.margin>
+                                       <Insets left="10.0" />
+                                    </VBox.margin>
+                                 </HBox>
+                                    </VBox>
+                                </children>
+                            </HBox>
+                        </children>
+                    </HBox>
+                  <VBox prefHeight="429.0" prefWidth="850.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="330.0" prefWidth="850.0">
+                           <children>
+                              <StackPane fx:id="trailer" prefHeight="330.0" prefWidth="600.0">
+                                 <HBox.margin>
+                                    <Insets top="5.0" />
+                                 </HBox.margin>
+                              </StackPane>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_RIGHT" prefHeight="115.0" prefWidth="850.0" spacing="20.0">
+                           <children>
+                              <Button fx:id="editatuBtn" mnemonicParsing="false" prefHeight="45.0" prefWidth="100.0" text="Editatu" visible="false" onAction="#jokoEdit">
+                                 <graphic>
+                                    <FontIcon iconLiteral="fa-exchange" iconSize="16" />
+                                 </graphic>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#gehituJokoa" prefHeight="45.0" prefWidth="100.0" text="Gehitu">
+                                 <graphic>
+                                    <FontIcon iconLiteral="fa-plus-square" iconSize="16" />
+                                 </graphic>
+                              </Button>
+                              <Button fx:id="itxiBotoia" mnemonicParsing="false" onAction="#itxiLehioa" prefHeight="45.0" prefWidth="100.0" text="Irten">
+                                 <graphic>
+                                    <FontIcon iconLiteral="fa-window-close" iconSize="16" />
+                                 </graphic>
+                              </Button>
+                           </children>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <padding>
+                              <Insets right="20.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+    </children>
+</AnchorPane>
