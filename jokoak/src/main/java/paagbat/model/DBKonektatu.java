@@ -18,7 +18,7 @@ import paagbat.model.enumerazioa.Plataforma;
 import paagbat.model.enumerazioa.Rola;
 
 public class DBKonektatu {
-    private static final String DB_URL = "jdbc:sqlite:jokoak/src/main/java/paagbat/sql/GameHive.db";
+    private static final String DB_URL = "jdbc:sqlite:src/main/java/paagbat/sql/GameHive.db";
     public static final String IMG_RUTA = "jokoak/src/main/resources/paagbat/img/erabiltzaileak/";
     public static final String JOKOAK_RUTA = "jokoak/src/main/resources/paagbat/img/jokoak/";
 
